@@ -32,7 +32,7 @@ Key guidelines for managing chat history:
 
 - The conversation should follow one of these structures:
     - The first message is either a "user" message or a "system" message, followed by a "user" and then an "assistant" message.
-    - The last message should be either a "user" message or a "tool" message containing the result of a tool call.
+    - The last message should be either an "assistant" message or a "tool" message containing the result of a tool call.
 - When using [tool calling](/docs/concepts/tool_calling), a "tool" message should only follow an "assistant" message that requested the tool invocation.
 
 :::tip
